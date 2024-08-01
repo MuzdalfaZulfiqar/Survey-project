@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <div class="container">
+        <h2 style="text-align: center">Survey Form</h2>
+      <div class="innerBox">
+        <br />
+        <div class="name">
+          <label class="center" for="name">Name : </label>
+          <input
+            class="center"
+            type="text"
+            name=""
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <br />
+        <br />
+        <div class="email">
+          <label for="email">Email : </label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <br />
+        <br />
+        <div class="age">
+          <label for="age">Age : </label>
+          <input type="number" name="" id="age" placeholder="Age" />
+        </div>
+        <br />
+        <br />
+
+        <div class="role">
+          <label for="role" style="width: 243px"
+            >Which option describers your current role the best?
+          </label>
+          <select name="roles" id="role">
+            <option value="">UnderGrad-Student</option>
+            <option value="">Grad-Student</option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <div class="rad">
+          <label for="rad" style="width: 243px"
+            >How likely is that you would recommend freeCodeCamp to a friend?
+          </label>
+          <div class="radOption">
+            <div>
+              <input type="radio" name="" id="r1" />
+              <label for="r1">Definitely</label>
+            </div>
+
+            <div>
+              <input type="radio" name="" id="r2" />
+              <label for="r2">Maybe</label>
+            </div>
+
+            <div>
+              <input type="radio" name="" id="r3" />
+              <label for="r3">Not sure</label>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="lkes">
+          <label for="likes" style="width: 243px"
+            >What would you like the most in FCC?</label
+          >
+          <select name="like" id="likes">
+            <option value="">Select an option</option>
+            <option value="">Good Salary</option>
+            <option value="">Perks</option>
+          </select>
+        </div>
+
+        <br /><br />
+
+        <div class="check">
+          <label for="" style="width: 243px"
+            >Things that should be improves in the future(Check all that
+            apply)</label
+          >
+
+          <div class="checkOpt">
+            <div>
+              <input type="checkbox" name="" id="c1" /><label for="c1"
+                >  Front-end Projects</label
+              >
+            </div>
+            <div>
+              <input type="checkbox" name="" id="c2" /><label for="c2"
+                >  Back-end Projects</label
+              >
+            </div>
+            <div>
+              <input type="checkbox" name="" id="c3" /><label for="c3"
+                >  Data Visualizations</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
